@@ -51,6 +51,12 @@
     text-align: center;
     justify-content: center;
     gap: 32px;
+    transition: $effectsDuration;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
   }
 
   @include on-small-desktop {
@@ -89,6 +95,7 @@
     letter-spacing: 3px;
     text-align: center;
     margin: 18px 20px 48px 111px;
+    transition: $effectsDuration;
 
     @include on-tablet {
       margin: 18px 41px 56px 389px;
@@ -116,6 +123,10 @@
       display: flex;
       margin: 0;
       margin: -65px 707px 38px 1033px;
+    }
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
     }
   }
 }

@@ -129,6 +129,7 @@
     background-color: #2060f6;
     margin: 0;
     padding: 0;
+    transition: $effectsDuration;
 
     @include on-tablet {
       width: 264px;
@@ -140,7 +141,7 @@
     color: #2060f6;
     border: 1px solid #000;
     background-color: $c-white;
-    transition-duration: $effectsDuration;
+    transform: scale(1.1);
     cursor: pointer;
   }
 

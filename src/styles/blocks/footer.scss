@@ -208,6 +208,7 @@
     background-color: $c-blue;
     margin: 0;
     padding: 0;
+    transition: $effectsDuration;
 
     @include on-tablet {
       width: 264px;
@@ -217,7 +218,7 @@
   &__button:hover {
     color: $c-blue;
     background-color: $c-white;
-    transition-duration: $effectsDuration;
+    transform: scale(1.1);
     cursor: pointer;
   }
 

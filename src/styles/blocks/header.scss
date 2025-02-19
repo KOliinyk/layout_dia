@@ -1,6 +1,6 @@
 .header {
   // display: none !important;
-  width: 320px;
+  width: 100vw;
   height: 895px;
   margin: 0;
   padding: 0;
@@ -10,7 +10,6 @@
   overflow: hidden;
 
   @include on-tablet {
-    width: 640px;
     height: 988px;
     margin: 0;
     padding: 0;
@@ -19,7 +18,6 @@
   }
 
   @include on-small-desktop {
-    width: 1024px;
     height: 800px;
     margin: 0;
     padding: 0;
@@ -27,7 +25,6 @@
   }
 
   @include on-desktop {
-    width: 1280px;
     height: 800px;
     margin: 0;
     padding: 0;
@@ -35,7 +32,6 @@
   }
 
   @include on-design {
-    width: 1600px;
     height: 800px;
     margin: 0;
     padding: 0;
@@ -43,7 +39,6 @@
   }
 
   @include on-large-screens {
-    width: 2560px;
     height: 800px;
     margin: 0;
     padding: 0;
@@ -278,6 +273,7 @@
     color: $c-white;
     border-radius: 8px;
     background-color: #2060f6;
+    transition: $effectsDuration;
 
     @include on-tablet {
       width: 264px;
@@ -289,6 +285,7 @@
     color: #2060f6;
     background-color: $c-white;
     cursor: pointer;
+    transform: scale(1.1);
   }
 
   &__button:active {

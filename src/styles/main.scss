@@ -19,6 +19,8 @@
   font-family: Poppins, sans-serif;
   font-family: 'Open Sans', sans-serif;
   background: $c-gray;
+  scroll-behavior: smooth;
+  min-width: 100vw;
 
   overflow-x: hidden;
 }
